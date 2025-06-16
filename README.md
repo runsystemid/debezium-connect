@@ -14,7 +14,7 @@ This Docker image extends the official Debezium Connect image to add JDBC connec
 Build the Docker image:
 
 ```bash
-docker build -t debezium-connect-jdbc .
+docker build -t debezium-connect .
 ```
 
 ## Configuration
