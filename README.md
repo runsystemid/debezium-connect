@@ -5,7 +5,7 @@ This Docker image extends the official Debezium Connect image to add JDBC connec
 ## Components
 
 - Debezium Connect v1.9
-- PostgreSQL JDBC Driver v42.2.8
+- PostgreSQL JDBC Driver v42.7.7
 - MySQL Connector/J v8.0.30
 - Kafka Connect JDBC v5.3.2
 
