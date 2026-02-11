@@ -49,8 +49,8 @@ jobs:
           push: true
           tags: |
             ghcr.io/runsystemid/debezium-connect:${{ steps.sha.outputs.sha_short }}
-            ghcr.io/runsystemid/debezium-connect:latest
+            # ghcr.io/runsystemid/debezium-connect:latest
             runsystemid/debezium-connect:${{ steps.sha.outputs.sha_short }}
-            runsystemid/debezium-connect:latest
-            runsystemid/debezium-connect:1.9
+            # runsystemid/debezium-connect:latest
+            runsystemid/debezium-connect:2.5
             
