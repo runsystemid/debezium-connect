@@ -52,4 +52,5 @@ jobs:
             ghcr.io/runsystemid/debezium-connect:latest
             runsystemid/debezium-connect:${{ steps.sha.outputs.sha_short }}
             runsystemid/debezium-connect:latest
+            runsystemid/debezium-connect:1.9
             
