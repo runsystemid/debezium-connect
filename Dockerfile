@@ -1,5 +1,6 @@
 FROM debezium/connect:1.9
 
+# Set versions and directories
 ENV POSTGRES_VERSION=42.7.7
 ENV MYSQL_VERSION=8.0.30
 ENV KAFKA_JDBC_VERSION=5.3.2
