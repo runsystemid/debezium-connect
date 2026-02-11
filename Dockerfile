@@ -1,9 +1,9 @@
-FROM debezium/connect:1.9
+FROM debezium/connect:2.5
 
 # Set versions and directories
 ENV POSTGRES_VERSION=42.7.7
 ENV MYSQL_VERSION=8.0.30
-ENV KAFKA_JDBC_VERSION=5.3.2
+ENV KAFKA_JDBC_VERSION=10.9.0
 ENV KAFKA_CONNECT_JDBC_DIR=${KAFKA_CONNECT_PLUGINS_DIR}/kafka-connect-jdbc
 
 # Deploy JDBC Driver
